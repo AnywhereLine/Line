@@ -45,6 +45,7 @@ root用户名和密码
 vim startes.sh
  
 #!/bin/bash
+
 filebrowser -d /etc/filemanager/filebrowser.db >/dev/null &
 
 chmod +x startes.sh
