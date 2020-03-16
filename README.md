@@ -42,19 +42,22 @@ root用户名和密码
 
 开机启动file browser
 
+新建一个脚本
 vim startes.sh
- 
+写入内容
+
 #!/bin/bash
 
 filebrowser -d /etc/filemanager/filebrowser.db >/dev/null &
 
+设置权限
 chmod +x startes.sh
 
+启动文件
 sh startes.sh
 
-
+写入系统启动项目开机自动启动
 vim /etc/rc.local
-
 sh /xxxx/xxxx/startes.sh
  
 chmod +x /etc/rc.local
