@@ -62,3 +62,10 @@ sh /xxxx/xxxx/startes.sh
  
 chmod +x /etc/rc.local
  
+ # Nginx
+ 
+ apt-get install nginx
+ 
+ # mysql 
+ 
+ apt-get install mysql-server mysql-client
